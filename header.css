@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(images/sarajevo-gf6ae32f0f_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 100px;
+  cursor: pointer;
+}
+.menu-icon{
+  width: 30px;
+  cursor: pointer;
+  margin-left: 40px; ;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #eee;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-right: 50px;
+}
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+
+}
+.col{
+  width: 100%;
+}
+h1{
+  color: #eee;
+  font-size: 60px;
+  margin-left: 10px;
+  text-shadow: 2px 2px 4px #000000;
+}
+p{
+  color: #eee;
+  font-size: 20px;
+  line-height: 15px;
+  margin-left: 15px;
+  width: 70%;
+  font-family: 'Pacifico', cursive;
+  line-height: 1.3;
+}
+
+button{
+  width: 180px;
+  color: #eee;
+  font-size: 12px;
+  padding: 12px 0;
+  background: #eee;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+  color: black;
+  margin-left: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+.card{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  transition: transform 0.5s;
+  color: #eee;
+}
+.card h4{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.card1{
+  background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.1)),url(images/sarajevo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.card2{
+  background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.4)),url(images/jajce.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.card3{
+  background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.4)),url(images/banjaluka.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.card4{
+  background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.4)),url(images/mostar.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.card5{
+  background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.3)),url(images/blagaj.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.card6{
+  background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.4)),url(images/neum.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
